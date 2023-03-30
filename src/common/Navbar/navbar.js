@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./navbar.module.css"
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function NavBar() {
     const [menu, setMenu] = useState(false);
